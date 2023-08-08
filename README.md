@@ -8,9 +8,9 @@ The model is trained on the CPU for a limited number of epochs, and the progress
 
 The results generated using this model are not accurate since the model is not trained to the convergence.
 
-A Flask app has been created to use the trained UNet model in a none isolated model server. The app will run on port 5000. This app will receive a repository of .tif images, and predictions will be generated and saved in the results repository. 
+A Flask app has been created to use the trained UNet model. This app will receive a repository of .tif images, and predictions will be generated and saved in the results repository. 
 
-The app can also be accessed using a docker container.
+The app can also be accessed using a docker container as well.
 
 ## Table of Contents
 
@@ -31,11 +31,10 @@ Please note that Python 3.11.4 was used in this project.
 
 ## Usage
 1. Download and place the dataset in the main directory: Link: `https://drive.google.com/file/d/16UZRha_PXATKcjTwbYGy6-QW0kPZivPx/view`
-1. To train the model and save the weights: `python main.py path_to_training train_val_split learning_rate n_batch n_epochs path_to_save_model`
+2. To train the model and save the weights: `python main.py path_to_training train_val_split learning_rate n_batch n_epochs path_to_save_model`
    example: `python main.py .pytorch_unet\\training 0.8 0.0001 2 2 .pytorch_unet\\unet_model.pth`
-2. To generate results and overlay the results on original images, run the development server: `python app.py`
-3. Send request: `python request.py`
-4. To build the docker container: `docker build -t pytorch_unet .`
+3. To generate results and overlay the results on original images, run the development server: `python app.py`
+4. Send request: `python request.py`
 5. To pull the docker container: `docker pull mi161374/pytorch_unet_flask:latest` 
 
 ## Example_of_WeightsandBiases:

@@ -10,7 +10,7 @@ The results generated using this model are not accurate since the model is not t
 
 A Flask app has been created to use the trained UNet model. This app will receive a repository of .tif images, and predictions will be generated and saved in the results repository. 
 
-The app can also be accessed using a docker container as well.
+The app can also be accessed using docker.
 
 ## Table of Contents
 

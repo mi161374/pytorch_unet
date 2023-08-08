@@ -1,0 +1,43 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.11",
+    "heartbeatAt": "2023-08-08T00:35:55.662252",
+    "startedAt": "2023-08-08T00:35:54.831820",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "C:\\\\Users\\\\ImaniM\\\\coding\\\\pytorch_unet\\\\dataset\\\\training",
+        "0.8",
+        "0.0001",
+        "2",
+        "2",
+        "C:\\\\Users\\\\ImaniM\\\\coding\\\\pytorch_unet\\\\unet_model.pth"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\ImaniM\\coding\\pytorch_unet\\main.py",
+    "codePath": "main.py",
+    "host": "5000L-149573-W",
+    "username": "imanim",
+    "executable": "C:\\Users\\ImaniM\\coding\\local_env4\\Scripts\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1792.0,
+        "min": 0.0,
+        "max": 1992.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1792.0,
+            "min": 0.0,
+            "max": 1992.0
+        }
+    ],
+    "disk": {
+        "total": 471.55858993530273,
+        "used": 364.7032012939453
+    },
+    "memory": {
+        "total": 15.846885681152344
+    }
+}

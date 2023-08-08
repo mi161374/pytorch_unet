@@ -1,0 +1,37 @@
+2023-08-08 10:35:54,838 INFO    MainThread:22640 [wandb_setup.py:_flush():76] Current SDK version is 0.15.8
+2023-08-08 10:35:54,838 INFO    MainThread:22640 [wandb_setup.py:_flush():76] Configure stats pid to 22640
+2023-08-08 10:35:54,838 INFO    MainThread:22640 [wandb_setup.py:_flush():76] Loading settings from C:\Users\ImaniM\.config\wandb\settings
+2023-08-08 10:35:54,839 INFO    MainThread:22640 [wandb_setup.py:_flush():76] Loading settings from C:\Users\ImaniM\coding\pytorch_unet\wandb\settings
+2023-08-08 10:35:54,839 INFO    MainThread:22640 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-08-08 10:35:54,839 INFO    MainThread:22640 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-08 10:35:54,839 INFO    MainThread:22640 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'C:\\Users\\ImaniM\\coding\\pytorch_unet\\main.py'}
+2023-08-08 10:35:54,839 INFO    MainThread:22640 [wandb_init.py:_log_setup():507] Logging user logs to C:\Users\ImaniM\coding\pytorch_unet\wandb\run-20230808_103554-wa5ep74s\logs\debug.log
+2023-08-08 10:35:54,840 INFO    MainThread:22640 [wandb_init.py:_log_setup():508] Logging internal logs to C:\Users\ImaniM\coding\pytorch_unet\wandb\run-20230808_103554-wa5ep74s\logs\debug-internal.log
+2023-08-08 10:35:54,841 INFO    MainThread:22640 [wandb_init.py:init():547] calling init triggers
+2023-08-08 10:35:54,841 INFO    MainThread:22640 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.0001, 'batch_size': 2}
+2023-08-08 10:35:54,841 INFO    MainThread:22640 [wandb_init.py:init():596] starting backend
+2023-08-08 10:35:54,842 INFO    MainThread:22640 [wandb_init.py:init():600] setting up manager
+2023-08-08 10:35:54,848 INFO    MainThread:22640 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-08-08 10:35:54,852 INFO    MainThread:22640 [wandb_init.py:init():606] backend started and connected
+2023-08-08 10:35:54,869 INFO    MainThread:22640 [wandb_init.py:init():697] updated telemetry
+2023-08-08 10:35:54,874 INFO    MainThread:22640 [wandb_init.py:init():730] communicating run to backend with 60.0 second timeout
+2023-08-08 10:35:55,511 INFO    MainThread:22640 [wandb_run.py:_on_init():2180] communicating current version
+2023-08-08 10:35:55,596 INFO    MainThread:22640 [wandb_run.py:_on_init():2189] got version response 
+2023-08-08 10:35:55,596 INFO    MainThread:22640 [wandb_init.py:init():781] starting run threads in backend
+2023-08-08 10:35:55,748 INFO    MainThread:22640 [wandb_run.py:_console_start():2159] atexit reg
+2023-08-08 10:35:55,748 INFO    MainThread:22640 [wandb_run.py:_redirect():2014] redirect: wrap_raw
+2023-08-08 10:35:55,748 INFO    MainThread:22640 [wandb_run.py:_redirect():2079] Wrapping output streams.
+2023-08-08 10:35:55,748 INFO    MainThread:22640 [wandb_run.py:_redirect():2104] Redirects installed.
+2023-08-08 10:35:55,748 INFO    MainThread:22640 [wandb_init.py:init():822] run started, returning control to user process
+2023-08-08 10:35:55,755 INFO    MainThread:22640 [wandb_config.py:__setitem__():151] config set epochs = 2 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FDE7E1ED10>>
+2023-08-08 10:35:55,755 INFO    MainThread:22640 [wandb_run.py:_config_callback():1282] config_cb epochs 2 None
+2023-08-08 10:35:55,756 INFO    MainThread:22640 [wandb_config.py:__setitem__():151] config set model_architecture = UNet - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FDE7E1ED10>>
+2023-08-08 10:35:55,757 INFO    MainThread:22640 [wandb_run.py:_config_callback():1282] config_cb model_architecture UNet None
+2023-08-08 10:37:33,893 INFO    MainThread:22640 [wandb_run.py:_finish():1894] finishing run mi161374/pytorch_unet/wa5ep74s
+2023-08-08 10:37:33,893 INFO    MainThread:22640 [wandb_run.py:_atexit_cleanup():2128] got exitcode: 0
+2023-08-08 10:37:33,893 INFO    MainThread:22640 [wandb_run.py:_restore():2111] restore
+2023-08-08 10:37:33,893 INFO    MainThread:22640 [wandb_run.py:_restore():2117] restore done
+2023-08-08 10:37:37,980 INFO    MainThread:22640 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-08-08 10:37:37,980 INFO    MainThread:22640 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-08-08 10:37:37,990 INFO    MainThread:22640 [wandb_run.py:_footer_sync_info():3440] logging synced files

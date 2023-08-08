@@ -1,0 +1,6 @@
+
+Epoch [1/2], Train_Loss: -0.5455
+Epoch [1/2], Val_Loss: 0.9154
+Epoch [2/2], Train_Loss: -7.2412
+Epoch [2/2], Val_Loss: 0.6704
+Training completed and model saved successfully!

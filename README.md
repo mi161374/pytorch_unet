@@ -33,10 +33,11 @@ Please note that Python 3.11.4 was used in this project.
 ## Usage
 1. Download and place the dataset in the main directory: Link: `https://drive.google.com/file/d/16UZRha_PXATKcjTwbYGy6-QW0kPZivPx/view`
 2. To train the model and save the weights: `python main.py path_to_training train_val_split learning_rate n_batch n_epochs path_to_save_model`
+
    example: `python main.py .pytorch_unet\\training 0.8 0.0001 2 2 .pytorch_unet\\unet_model.pth`
-3. To generate results and overlay the results on original images, run the development server: `python app.py`
-4. Send request: `python request.py`
-5. To pull the docker container: `docker pull mi161374/pytorch_unet_flask:latest` 
+4. To generate results and overlay the results on original images, run the development server: `python app.py`
+5. Send request: `python request.py`
+6. To pull the docker container: `docker pull mi161374/pytorch_unet_flask:latest` 
 
 ## Example_of_WeightsandBiases:
 

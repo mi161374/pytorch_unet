@@ -19,7 +19,7 @@ A docker container can be built using the Dockerfile provided in this project.
 
 To install and run the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/username/my-awesome-project.git`
+1. Clone the repository: `git clone https://github.com/mi161374/pytorch_unet.git`
 2. Change into the project directory: `cd pytorch_unet`
 3. Install dependencies: `pip install -r requirements.txt`
 

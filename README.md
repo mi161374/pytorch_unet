@@ -12,6 +12,7 @@ A docker container can be built using the Dockerfile provided in this project.
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Example of Weights and Biases](#Example_of_WeightsandBiases)
 - [Contact](#contact)
 
 ## Installation
@@ -22,7 +23,7 @@ To install and run the project locally, follow these steps:
 2. Change into the project directory: `cd pytorch_unet`
 3. Install dependencies: `pip install -r requirements.txt`
 
-Please note that python 3.11.4 was used in this project.
+Please note that Python 3.11.4 was used in this project.
 
 ## Usage
 
@@ -33,9 +34,11 @@ Please note that python 3.11.4 was used in this project.
 4. To build the docker container: `docker build -t pytorch_unet .`
 5. To run the docker container: `docker run -p 5000:5000 pytorch_unet` 
 
-## Example of Weights and Biases:
+## Example_of_WeightsandBiases:
 
 ![Screenshot 2023-08-08 121133](https://github.com/mi161374/pytorch_unet/assets/70301469/32667ff5-26d1-4a68-85e4-1779cf554bb6)
+
+![Screenshot 2023-08-08 121555](https://github.com/mi161374/pytorch_unet/assets/70301469/d75f8bb9-7301-45c0-835d-8996ae3f4c25)
 
 
 

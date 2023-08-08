@@ -6,7 +6,7 @@ The results generated using this model are not accurate since the model is not t
 
 A Flask app has been created to use the trained UNet model in a none isolated model server. The app will run on port 5000. This app will receive a repository of .tif images, and predictions will be generated and saved in the results repository. 
 
-A docker container can be built using the Dockerfile provided in this project.
+The app can also be accessed using a docker container.
 
 ## Table of Contents
 
@@ -32,7 +32,7 @@ Please note that Python 3.11.4 was used in this project.
 2. To generate results and overlay the results on original images, run the development server: `python app.py`
 3. Send request: `python request.py`
 4. To build the docker container: `docker build -t pytorch_unet .`
-5. To run the docker container: `docker run -p 5000:5000 pytorch_unet` 
+5. To pull the docker container: `docker pull mi161374/pytorch_unet_flask:latest` 
 
 ## Example_of_WeightsandBiases:
 

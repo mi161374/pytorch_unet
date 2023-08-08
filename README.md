@@ -1,5 +1,6 @@
 # pytorch_unet
 This project is a pytorch implementation of UNet model.
+
 This project divides training data into train and validation, and test data is used for testing the model. 
 
 The dataset used in this project is from Kaggle. A direct google drive link has been provided to download the dataset. 

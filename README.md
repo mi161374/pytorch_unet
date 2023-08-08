@@ -1,8 +1,11 @@
 # pytorch_unet
 This project is a pytorch implementation of UNet model.
 This project divides training data into train and validation, and test data is used for testing the model. 
+
 The dataset used in this project is from Kaggle. A direct google drive link has been provided to download the dataset. 
+
 The model is trained on the CPU for a limited number of epochs, and the progress of the model is inspected using Weights and Biases. 
+
 The results generated using this model are not accurate since the model is not trained to the convergence.
 
 A Flask app has been created to use the trained UNet model in a none isolated model server. The app will run on port 5000. This app will receive a repository of .tif images, and predictions will be generated and saved in the results repository. 

@@ -39,12 +39,6 @@ Please note that Python 3.11.4 was used in this project.
 5. Send request: `python request.py`
 6. To pull the docker container: `docker pull mi161374/pytorch_unet_flask:latest` 
 
-## Example_of_WeightsandBiases:
-
-![Screenshot 2023-08-08 121133](https://github.com/mi161374/pytorch_unet/assets/70301469/32667ff5-26d1-4a68-85e4-1779cf554bb6)
-
-![Screenshot 2023-08-08 121555](https://github.com/mi161374/pytorch_unet/assets/70301469/d75f8bb9-7301-45c0-835d-8996ae3f4c25)
-
 
 
 ## Contact

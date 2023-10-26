@@ -17,7 +17,6 @@ The app can also be accessed using docker.
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Example of Weights and Biases](#Example_of_WeightsandBiases)
 - [Contact](#contact)
 
 ## Installation
